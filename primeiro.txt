@@ -4,4 +4,7 @@ Comandos
 -git clone + paste ==> clona o repositorio criado no gitHub
 -code .   ==> abre o visual code
 -git status  ==>
--git add nome do arquivo  ==>
+-git add <nome do aquivo>  ==> versionando o arquivo
+-git add * ==> versionando de todos os  arquivo
+-git commit  -m "passar a mensagem" ==> joga as alterações do arquivo para o repositorio local
+-git push ==> envia os arquivos alterados no repositorio local para o repositorio remoto.
