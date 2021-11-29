@@ -1,0 +1,7 @@
+Comandos
+
+-git      ==> verifica se o git está instalado na máquina
+-git clone + paste ==> clona o repositorio criado no gitHub
+-code .   ==> abre o visual code
+-git status  ==>
+-git add nome do arquivo  ==>
