@@ -12,4 +12,4 @@ Comandos
 -git push ==> envia os arquivos alterados no repositorio local para o repositorio remoto.
 -git checkout ==> mudar de branch 
 -git checkout -b <nome da branch> ==> muda de branch e cria uma nova branch
--git push --set-upstream origin cadastro-usuario ==>Cria a branch no repositorio remoto e sincroniza
+-git push --set-upstream origin cadastro-usuario ==>Cria a branch no repositorio remoto e sincronizar
