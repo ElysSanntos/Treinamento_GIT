@@ -6,5 +6,9 @@ Comandos
 -git status  ==>
 -git add <nome do aquivo>  ==> versionando o arquivo
 -git add * ==> versionando de todos os  arquivo
+-git add . ==> versionando de todos os  arquivo
+-git add -A ==> versionando de todos os  arquivo
 -git commit  -m "o que foi alterado? Por que foi alterado?" ==> joga as alterações do arquivo para o repositorio local
 -git push ==> envia os arquivos alterados no repositorio local para o repositorio remoto.
+-git checkout ==> mudar de branch 
+-git checkout -b <nome da branch> ==> muda de branch e cria uma nova branch
