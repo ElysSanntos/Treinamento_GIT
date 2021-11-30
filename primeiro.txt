@@ -21,3 +21,15 @@ Tenha em atenção que quaisquer alterações efetuadas não irão para o reposi
 -git push origin --delete <nome da branch>
 --- deletar branch local
 git branch -d <nome da branch>
+--git pull ==> buscando alterações remotas o Git vai buscar as alterações de código dos outros desenvolvedores e tentar fazer o merge daquelas alterações no seu código. Caso o Git não consiga fazer o merge automático ele marcará as seções do código onde há conflito e você precisará juntar os código manualmente
+-- arquivo .gitignore ==> O .gitignore é um arquivo que criamos na raiz do nosso projeto para poder ignorar arquivos e pastas do versionamento.
+Dentro do .gitignore colocamos todos os arquivos e pastas para serem ignorados pelo git.
+# Ignora todos os arquivos com extensão .txt
+*.txt
+
+# Ignora uma pasta
+build
+
+# Remove do .gitignore o arquivo .gitkeep dentro da pasta
+!uploads/.gitkeep
+Já o .gitkeep é um arquivo oculto pelo sistema que serve apenas para versionar pastas vázias, basta cria-lo dentro da pasta a ser versionada.
