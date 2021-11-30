@@ -3,9 +3,21 @@ Comandos
 -git      ==> verifica se o git está instalado na máquina
 -git clone + paste ==> clona o repositorio criado no gitHub
 -code .   ==> abre o visual code
--git status  ==>
+-git status  ==> O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados.
 -git add <nome do aquivo>  ==> versionando o arquivo
 -git add * ==> versionando de todos os  arquivo
--git commit  -m "o que foi alterado? Por que foi alterado?" ==> joga as alterações do arquivo para o repositorio local
--git push ==> envia os arquivos alterados no repositorio local para o repositorio remoto.
--git merge <branch-name ==>O comando git merge é usado para mesclar uma ramificação no ramo ativo.
+-git add . ==> versionando de todos os  arquivo
+-git add -A ==> versionando de todos os  arquivo
+-git commit  -m "o que foi alterado? Por que foi alterado?" ==> joga as alterações do arquivo para o repositorio local. O comando git commit é usado para confirmar as alterações na cabeça. 
+Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. 
+-git push ==> envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho. 
+-git checkout ==> navegar entre as branches
+-git checkout -b <nome da branch> ==> criar ramos ou navegar entre as branches
+-git branch ==> O comando git branch pode ser usado para listar, criar ou excluir ramos. 
+-git branch –d <branch-name> ==>Para excluir um ramo:
+-git push --set-upstream origin cadastro-usuario ==>Cria a branch no repositorio remoto e sincronizar
+-git merge <nome da branch que virá as alterações> // aqui estou na master
+----deletar remote branch
+-git push origin --delete <nome da branch>
+--- deletar branch local
+git branch -d <nome da branch>
