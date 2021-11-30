@@ -32,4 +32,14 @@ build
 
 # Remove do .gitignore o arquivo .gitkeep dentro da pasta
 !uploads/.gitkeep
-Já o .gitkeep é um arquivo oculto pelo sistema que serve apenas para versionar pastas vázias, basta cria-lo dentro da pasta a ser versionada.
+Já o .gitkeep é um arquivo oculto pelo sistema que serve apenas para versionar pastas vázias, ]
+basta cria-lo dentro da pasta a ser versionada.
+
+***Reverter um commit***
+https://www.atlassian.com/br/git/tutorials/undoing-changes
+--git log ==> No repositorio clique na branch>commits>copia o numero do hash (d3c99b5dcd0d3b8a11b0e2f116998ea2149aec39)
+--git revert <id_commit> ==> desfaz alterações
+--git revert d3c99b5dcd0d3b8a11b0e2f116998ea2149aec39 ==>
+--git reset --hard ==> reverte tudo o que foi feito e volta ao estado original da branch -- Se perde as alterações não comitadas
+--git branch ==>é usado para ver e visitar outras ramificações. 
+--git branch -a ==>vai retornar uma lista de todos os nomes conhecidos de ramificações.
